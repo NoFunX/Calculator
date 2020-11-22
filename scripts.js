@@ -57,9 +57,9 @@ function operation (oper) {
             MemoryCurrentValue += parseFloat(localoperationmemory);
         } else if (MemoryPendingOperation ==="-") {
             MemoryCurrentValue -= parseFloat(localoperationmemory);
-        } else if(MemoryPendingOperation =="*") {
+        } else if(MemoryPendingOperation ==="*") {
             MemoryCurrentValue *= parseFloat(localoperationmemory);
-        } else if (MemoryPendingOperation =="/") {
+        } else if (MemoryPendingOperation ==="/") {
             MemoryCurrentValue /= localoperationmemory;
         } else {
             MemoryCurrentValue = parseFloat(localoperationmemory);
